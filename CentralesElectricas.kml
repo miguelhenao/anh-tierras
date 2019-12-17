@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="CentralesEléctricas" id="CentralesEléctricas">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="NOMBRE" type="string"></SimpleField>
+	<SimpleField name="TIPO" type="string"></SimpleField>
+	<SimpleField name="COD_EMPRES" type="float"></SimpleField>
+	<SimpleField name="VIDA_UTIL" type="float"></SimpleField>
+	<SimpleField name="TIPO_COMBU" type="string"></SimpleField>
+	<SimpleField name="UNIDAD" type="string"></SimpleField>
+	<SimpleField name="OBSERVACIO" type="string"></SimpleField>
+	<SimpleField name="NOM_SUBEST" type="string"></SimpleField>
+	<SimpleField name="CLASE" type="string"></SimpleField>
+	<SimpleField name="FACT_POTEN" type="float"></SimpleField>
+	<SimpleField name="CAPD_NOMIN" type="float"></SimpleField>
+	<SimpleField name="CAPD_EFECT" type="float"></SimpleField>
+	<SimpleField name="CAPD_NETA" type="float"></SimpleField>
+	<SimpleField name="ANO_ENT_FU" type="float"></SimpleField>
+	<SimpleField name="DISPONIBIL" type="float"></SimpleField>
+	<SimpleField name="CAPD_ANL_G" type="float"></SimpleField>
+	<SimpleField name="CON_COMBUS" type="float"></SimpleField>
+</Schema>
+<Folder><name>CentralesEléctricas</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="NOMBRE">Guadalupe III</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">8</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">SALTO</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">270.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">270.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">270.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1966.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">227.20000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">1578.02000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.2027890627065,6.81820476075181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="NOMBRE">Gualanday</SimpleData>
+		<SimpleData name="TIPO">Térmica turbogas con inyección de vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">26</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">GUALANDAY</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">41.80000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">40.50000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">40.50000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1992.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">18.60000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">81.26000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">1300.68000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.9994993541515,4.34497495707476</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="NOMBRE">Ballenas I Y II</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Térmica Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">5</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">TERMOBALLENAS</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">31.60000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">28.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">27.40000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1983.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">9.50000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">36.03000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">958.05000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6988046964004,11.7077713320842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="NOMBRE">Generacion OXY</SimpleData>
+		<SimpleData name="COD_EMPRES">25</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="NOM_SUBEST">CAÑO LIMON</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">0.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">0.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">192.53000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.9528346157568,6.90834061567703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="NOMBRE">Zulia</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Vapor Fuel-Oil Vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">19</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">ZULIA</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">15.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">0.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1969.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">195.70000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.4823665257812,8.25594265041894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="NOMBRE">Tasajero</SimpleData>
+		<SimpleData name="TIPO">Térmica Carbón-Vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">18</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Carbón</SimpleData>
+		<SimpleData name="UNIDAD">$/Ton</SimpleData>
+		<SimpleData name="NOM_SUBEST">TASAJERO</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">163.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">163.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">150.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1985.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">105.30000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">769.59000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">21500.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6061508896413,7.71782335418501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="NOMBRE">Palenque III y IV</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Vapor, Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">29</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">PALENQUE</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.82000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">31.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">28.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">28.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1972.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">23.80000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">56.51000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">993.39000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3423998534735,7.23591700984579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="NOMBRE">Barranca I,II,III,IV,V</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Vapor Fuel-Oil Vapor, Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">29</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MTBU</SimpleData>
+		<SimpleData name="NOM_SUBEST">BARRANCA</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.86000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">152.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">149.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">149.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1972.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">91.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">278.49000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">854.87000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.82863380933,7.06243965366758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="NOMBRE">Guavio</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">7</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">GUAVIO</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">1000.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">1000.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">1000.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1992.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">904.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">4406.26000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.4360453553573,4.7257856220169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="NOMBRE">Playas</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">8</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">PLAYAS</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">204.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">201.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">201.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1988.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">184.50000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">1410.78000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.9330973940535,6.28220531073282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="NOMBRE">Jaguas</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">25</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">JAGUAS</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">170.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">170.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">170.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1988.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">156.20000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">636.43000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.9838419425862,6.37644851802345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="NOMBRE">Guaca</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">7</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">GUACA</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">324.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">310.50000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">310.50000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1987.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">209.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">968.51000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.4066228046826,4.63055716945488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="NOMBRE">Cartagena I, II y III</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Vapor/Térmica Fuel Oil</SimpleData>
+		<SimpleData name="COD_EMPRES">18</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">TERMOCARTAGENA</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">203.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">180.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">171.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1980.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">136.10000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">971.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">958.05000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5119050004602,10.3587628597833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="NOMBRE">La Ayura</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">8</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="OBSERVACIO">MENORES DE EEPPMM</SimpleData>
+		<SimpleData name="NOM_SUBEST">ANCON SUR</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">19.10000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">19.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">19.10000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">0.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">9.40000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">74.95000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5833237157281,6.15088066280615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="NOMBRE">Esmeralda</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">4</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">ESMERALDA</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">30.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">30.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">30.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1963.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">28.20000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">208.51000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.7127166300057,5.0537268128426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="NOMBRE">Betania</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">18</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">BETANIA</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">510.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">499.20000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">499.20000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1987.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">444.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">1841.80000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.4154560946229,2.76768313159412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="NOMBRE">Bajo Anchicaya</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">14</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">BAJO ANCHICAYA</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">64.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">72.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">72.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1957.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">69.60000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">369.07000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.9191964007793,3.70901625735758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="NOMBRE">Alto Anchicaya</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">11</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">ALTO ANCHICAYA</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">340.20000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">345.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">345.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1973.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">263.30000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">1417.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.8375672197613,3.6308080310771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="NOMBRE">Salvajina</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">11</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">SALVAJINA</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">270.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">270.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">270.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1985.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">186.50000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">921.10000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.744533835534,2.95755654247842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="NOMBRE">Rio Mayo</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">3</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">RIO MAYO</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">26.30000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">21.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">21.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1969.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">19.50000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">96.56000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3044547049679,1.66183602537996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="NOMBRE">Florida II</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">2</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">FLORIDA II</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">24.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">24.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">24.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1975.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">23.30000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">66.24000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.7403003640435,2.4804070788015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="NOMBRE">Barranquilla (7)</SimpleData>
+		<SimpleData name="TIPO">Térmica Carbón-Vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">5</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">SOLEDAD</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">316.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">225.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">213.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1980.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">215.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">1192.62000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">958.05000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.7489679426882,10.9159726715223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="NOMBRE">Guajira I Y II</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Térmica Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">5</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">TERMOGUAJIRA</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">320.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">320.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">304.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1987.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">123.20000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">1776.81000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">959.05000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3110357839415,11.2701021554815</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="NOMBRE">Tibu</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Vapor Fuel-Oil Vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">19</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Fuel oil</SimpleData>
+		<SimpleData name="UNIDAD">$/Galón</SimpleData>
+		<SimpleData name="NOM_SUBEST">TIBU</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">19.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">15.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">12.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1965.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">13.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">5.63000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">195.70000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7276289845342,8.62465224986958</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="NOMBRE">Guatape</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">8</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">GUATAPE</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">561.20000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">560.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">560.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1980.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">497.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">2561.31000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1399510834748,6.24000587921815</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="NOMBRE">Guadalupe IV</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">8</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">GUADALUPE IV</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">216.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">202.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">202.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1985.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">164.10000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">1156.85000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.2866800606939,6.78070507770852</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="NOMBRE">Paipa I,II y III</SimpleData>
+		<SimpleData name="TIPO">Térmica Carbón-Vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">16</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Carbón</SimpleData>
+		<SimpleData name="UNIDAD">$/Ton</SimpleData>
+		<SimpleData name="NOM_SUBEST">PAIPA</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.82000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">182.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">178.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">163.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1963.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">147.70000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">745.68000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">20300.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1140184884344,5.78902956757128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="NOMBRE">Chivor I y II</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">25</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">CHIVOR</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">1000.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">1000.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">1000.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1977.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">1826.20000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">6175.68000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2518428858829,4.88863828729686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="NOMBRE">Ocoa</SimpleData>
+		<SimpleData name="TIPO">Térmica ACPM con inyección de vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">26</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">ACPM</SimpleData>
+		<SimpleData name="UNIDAD">$/Galón</SimpleData>
+		<SimpleData name="NOM_SUBEST">VILLAVICENCIO</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">40.70000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">40.50000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">40.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1993.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">29.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">166.80000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">835.13000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.6302108651747,4.19887498456585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="NOMBRE">Colegio</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">7</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">COLEGIO</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">300.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">300.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">300.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1970.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">212.80000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">987.20000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.4347639994989,4.60238382186337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="NOMBRE">Prado</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">10</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">PRADO</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">51.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">49.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">49.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1973.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">219.07000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.9222198720095,3.76166910004187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="NOMBRE">San Carlos I y II</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">25</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">SAN CARLOS</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">1240.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">1240.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">1240.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1984.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">2253.60000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">10816.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.8340612753659,6.2010006538632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="NOMBRE">Niquia</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">8</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="OBSERVACIO">MENORES DE EEPPMM</SimpleData>
+		<SimpleData name="NOM_SUBEST">BELLO</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.94000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">22.50000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">22.50000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">22.60000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">0.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">9.40000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">74.95000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5725379476773,6.3530179015342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="NOMBRE">Calima</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">11</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">CALIMA</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">120.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">120.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">120.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1967.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">106.90000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">150.99000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.50093511145,3.93035129043035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="NOMBRE">Cuatricentenario</SimpleData>
+		<SimpleData name="COD_EMPRES">25</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="TIPO_COMBU">FO-GO</SimpleData>
+		<SimpleData name="UNIDAD">$/Galán</SimpleData>
+		<SimpleData name="NOM_SUBEST">CUATRICENTENARIO</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">0.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">0.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">88.18000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">45023.40000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.1367126124725,10.9413641723201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="NOMBRE">Cospique (5)</SimpleData>
+		<SimpleData name="TIPO">Térmica Gas-Térmica Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">21</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="UNIDAD">$/MBTU</SimpleData>
+		<SimpleData name="NOM_SUBEST">TERNERA</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">57.50000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">36.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">33.40000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1972.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">30.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">141.27000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">958.05000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5086985444604,10.320878651345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="NOMBRE">Paraiso</SimpleData>
+		<SimpleData name="TIPO">Hidráulica con Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">7</SimpleData>
+		<SimpleData name="VIDA_UTIL">30</SimpleData>
+		<SimpleData name="NOM_SUBEST">PARAISO</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">276.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">270.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">270.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1987.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">185.20000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">827.27000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.3376867367315,4.60688187396382</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="NOMBRE">Termocentro I y II</SimpleData>
+		<SimpleData name="TIPO">Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="TIPO_COMBU">Gas</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">198.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">198.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">193.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1997.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.3824842299687,6.46968367997658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="NOMBRE">Salto II</SimpleData>
+		<SimpleData name="TIPO">Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">70.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">70.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">70.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1963.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.2956520077811,4.5802654685051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="NOMBRE">Salto I</SimpleData>
+		<SimpleData name="TIPO">Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">60.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">60.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">56.80000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1998.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.2928371923193,4.57250503545972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="NOMBRE">Laguneta</SimpleData>
+		<SimpleData name="TIPO">Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">76.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">72.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">72.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1960.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.4406930439915,4.6660499505602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="NOMBRE">Canoas</SimpleData>
+		<SimpleData name="TIPO">Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">50.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">45.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">45.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1972.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.2973826008472,4.70847088567484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="NOMBRE">Zipa 2, 3, 4,5</SimpleData>
+		<SimpleData name="TIPO">Carbon vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">236.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">235.50000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">226.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1976.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.9972515161197,4.9851168988548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="NOMBRE">Insula</SimpleData>
+		<SimpleData name="TIPO">Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">27.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">25.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">25.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1979.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.4817169460535,4.92802626826674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="NOMBRE">San Francisco</SimpleData>
+		<SimpleData name="TIPO">Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">135.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">135.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">135.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1969.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.7183041623021,4.97297892560903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="NOMBRE">Rionegro</SimpleData>
+		<SimpleData name="TIPO">Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">10.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">9.50000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">9.50000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1974.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.5962374439488,5.44096370030733</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="NOMBRE">Termodorada</SimpleData>
+		<SimpleData name="TIPO">Gas</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">52.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">52.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">50.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1997.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.6807334944659,5.43021021863471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="NOMBRE">Riogrande I</SimpleData>
+		<SimpleData name="TIPO">Francis</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">75.50000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">75.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">75.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">0.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.4474167088342,6.50845328387994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="NOMBRE">Tasajera</SimpleData>
+		<SimpleData name="TIPO">Pelton</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Hidraulica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.94000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">313.50000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">309.90000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">309.90000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1994.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5235307652206,6.3730754266776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="NOMBRE">Sierra I y II</SimpleData>
+		<SimpleData name="TIPO">Gas</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">300.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">300.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">300.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1998.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.5617330585753,6.24545493361444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="NOMBRE">Chinú 4,5,6,7,8,</SimpleData>
+		<SimpleData name="TIPO">Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.80000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">146.50000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">134.70000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">132.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1982.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.3762858014748,9.19520511422366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="NOMBRE">Flores I, II y III</SimpleData>
+		<SimpleData name="TIPO">Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.85000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">408.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">404.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">397.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1993.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.7866994787317,11.0439148571392</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="NOMBRE">Proelectrica I, II</SimpleData>
+		<SimpleData name="TIPO">Turbogas</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.97000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">92.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">92.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">90.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1993.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5017039974713,10.4508512648334</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="NOMBRE">Meriléctrica</SimpleData>
+		<SimpleData name="TIPO">Gas</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">156.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">156.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">154.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1998.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.8825481154195,7.08251060987321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="NOMBRE">Termovalle</SimpleData>
+		<SimpleData name="TIPO">Gas vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">214.00000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">214.00000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">210.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1998.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.4790338252205,3.50093876316662</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#CentralesEléctricas">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="NOMBRE">Termoemcali</SimpleData>
+		<SimpleData name="TIPO">Turbo gas con inyecc. vapor</SimpleData>
+		<SimpleData name="COD_EMPRES">0</SimpleData>
+		<SimpleData name="VIDA_UTIL">0</SimpleData>
+		<SimpleData name="CLASE">Termica</SimpleData>
+		<SimpleData name="FACT_POTEN">0.89000000000</SimpleData>
+		<SimpleData name="CAPD_NOMIN">233.80000000000</SimpleData>
+		<SimpleData name="CAPD_EFECT">233.80000000000</SimpleData>
+		<SimpleData name="CAPD_NETA">220.00000000000</SimpleData>
+		<SimpleData name="ANO_ENT_FU">1999.00000000000</SimpleData>
+		<SimpleData name="DISPONIBIL">0.00000000000</SimpleData>
+		<SimpleData name="CAPD_ANL_G">0.00000000000</SimpleData>
+		<SimpleData name="CON_COMBUS">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.2886774994312,3.54684914351123</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
